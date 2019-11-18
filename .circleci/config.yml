@@ -230,7 +230,7 @@ jobs:
           destination: circleci-docs
       - store_artifacts: # stores build log output.
           path: run-results/
-          destination: run-results
+          ## destination: run-results
       - persist_to_workspace:
           root: ~/circleci-docs/jekyll/_site
           paths:
