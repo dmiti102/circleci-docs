@@ -272,8 +272,10 @@ en:
     - children:
         - name: Configuration Reference
           link: 2.0/configuration-reference/
-        - name: API Reference
+        - name: API v1.1 Reference
           link: api/
+        - name: API v2 Introduction
+          link: 2.0/api-intro/
         - name: Prebuilt Images
           link: 2.0/circleci-images/
         - name: Glossary
