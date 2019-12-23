@@ -363,7 +363,7 @@ CircleCI supports running jobs on Windows. To run a job on a Windows machine, yo
 version: 2.1
 
 orbs:
-  win: circleci/windows@2.2.0
+  win: circleci/windows@2.3.0
 
 jobs:
   build:
@@ -506,7 +506,7 @@ xlarge            | 16    | 60GB
 version: 2.1
 
 orbs:
-  win: circleci/windows@2.2.0
+  win: circleci/windows@2.3.0
 
 jobs:
   build:
@@ -545,7 +545,7 @@ windows.gpu.nvidia.medium\* |   8   | 30  | 1    | Nvidia Tesla T4 | 16
 version: 2.1
 
 orbs:
-  win: circleci/windows@2.2.0
+  win: circleci/windows@2.3.0
 
 jobs:
   build:
